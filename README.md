@@ -1,3 +1,7 @@
+# Personal notes
+I am also using this challenge as an exercise to refine my python workflow and
+tooling.
+
 [![progress-banner](https://backend.codecrafters.io/progress/http-server/6859765f-6743-4b31-a373-2d862f013ade)](https://app.codecrafters.io/users/codecrafters-bot?r=2qF)
 
 This is a starting point for Python solutions to the
@@ -35,3 +39,4 @@ Note: This section is for stages 2 and beyond.
    `app/main.py`.
 1. Commit your changes and run `git push origin master` to submit your solution
    to CodeCrafters. Test output will be streamed to your terminal.
+

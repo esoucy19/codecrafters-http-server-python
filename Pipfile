@@ -1,5 +1,3 @@
-#!/bin/sh
-
 [[source]]
 url = "https://pypi.org/simple"
 verify_ssl = true
@@ -7,9 +5,13 @@ name = "pypi"
 
 [packages]
 pyparsing = "~=3.0"
-lark = "~=1.1"
+lark = "*"
 
 [dev-packages]
+python-lsp-server = {extras = ["rope"], version = "*"}
+mypy = "*"
+ruff = "*"
+pytest = "*"
 
 [requires]
-python_version = "3"
+python_version = "3.13"
