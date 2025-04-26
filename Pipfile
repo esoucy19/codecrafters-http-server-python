@@ -12,6 +12,7 @@ python-lsp-server = {extras = ["rope"], version = "*"}
 mypy = "*"
 ruff = "*"
 pytest = "*"
+pytype = "*"
 
 [requires]
-python_version = "3.13"
+python_version = "3.12"

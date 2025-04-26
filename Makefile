@@ -6,7 +6,8 @@ format:
 	pipenv run ruff check --select 'I' --fix $(SRC) && \
 	pipenv run ruff format $(SRC)
 
-check: format
+check:
+	pipenv run pytype $(SRC)
 	pipenv run mypy $(SRC)
 	pipenv run ruff check $(SRC)
 
