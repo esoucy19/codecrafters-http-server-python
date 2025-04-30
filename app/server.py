@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-import socket  # noqa: F401
+import socket
 from typing import Final, Protocol, Self
 
 HOST: Final[str] = "localhost"
@@ -22,4 +22,3 @@ class Server(Protocol):
     def __enter__(self) -> Self: ...
     def __exit__(self, *args) -> None: ...
     def listen(self, max_connections: int = 0) -> None: ...
-    
